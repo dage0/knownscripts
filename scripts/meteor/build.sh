@@ -1,6 +1,6 @@
 set -e
 
-echo $BUILD_DIR
+echo "$BUILD_DIR"
 
 meteor build $BUILD_DIR/compilation --directory --server-only --architecture os.linux.x86_64
 
